@@ -1,0 +1,693 @@
+/*============= RESET STYLE =============
+FONTS:
+Body: font-family: 'Nunito Sans', sans-serif;
+Nav: font-family: 'Fjalla One', sans-serif;
+*/
+
+/*-- iPhone X Remove Gutters
+Ignore W3C Validation error for this style. --*/
+html {
+   padding: env(safe-area-inset);
+}
+
+/*-- Body Resets --*/
+body {
+   background: #F5F5F5;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 1.1rem;
+   color: #5b5b5b;
+}
+
+/*-- Option: Add Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+   padding: 1rem;
+ }
+
+/*-- Remove Blue Browser Outline Around Buttons in Chrome --*/
+a:focus,
+button:focus {
+  outline: 0 !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+/*-- Pointer Cursor On Links & Buttons --*/
+a, .btn, button {
+   cursor: pointer!important;
+}
+
+/*-- Max-width Container For Elements
+other than navbar, carousel, banner & footer --*/
+.wrapper {
+	max-width: 1120px;
+   margin: 0 auto;
+   padding: 0 .5rem;
+   overflow: hidden;
+}
+
+/*-- Headings --*/
+h1 {
+	text-align: center;
+	font-size: 175%;
+	color: #5b5b5b;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	padding: .6rem 0;
+}
+h2, h3, h4 {
+	text-align: center;
+	color: #5b5b5b;
+	text-transform: uppercase;
+}
+h5 {
+   font-weight: 700;
+}
+
+/*-- Remove Link Color/Underline from Phone #s --*/
+a {
+   color: #5b5b5b;
+}
+a:hover {
+   color: #5b5b5b;
+   text-decoration: none;
+}
+
+/*-- Text Colors --*/
+.text-gray {
+   color: #5b5b5b;
+}
+
+/*-- Buttons --*/
+.btn {
+   border-width: medium;
+   padding: .6rem 1.2rem;
+   margin: .5rem;
+   box-shadow: 0 0 .5rem rgba(0, 0, 0, .08);
+   transition: all .3s ease;
+ }
+.btn-red {
+   border-color: #de4e3f;
+   background-color: #de4e3f;
+   color: white;
+ }
+.btn-red:hover,
+.btn-red:focus  {
+   border-color: #E97F78;
+   background-color: #E97F78;
+   color: white;
+}
+.btn-gray {
+   border-color: #5b5b5b;
+   background-color: #5b5b5b;
+   color: white;
+}
+.btn-gray:hover,
+.btn-gray:focus  {
+   border-color: #8c8c8c;
+   background-color: #8c8c8c;
+   color: white;
+}
+
+/*-- Background Colors --*/
+.bg-red {
+   background-color: rgba(226, 98, 85, .6);
+   color: #5b5b5b;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+ }
+.bg-clear {
+   background-color: rgba(255, 255, 255, .8);
+   color: #5b5b5b;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+}
+.bg-gray {
+   background-color: rgba(91, 91, 91, .8);
+   color: white;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+}
+
+/*-- Center All Images & Set Max Width --*/
+img {
+   display: block;
+	margin: 0 auto;
+   max-width: 100%;
+}
+
+/*============= HEADER =============*/
+
+/*-- Callout Social Icons --*/
+.callout .social-center {
+   padding-bottom: .5rem;
+   margin: 0 auto;
+   max-width: 8rem;
+}
+.callout ul.social {
+   display: flex;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   margin-left: .3rem!important;
+}
+.callout ul.social li {
+   display: inline;
+   padding: 0 .2rem;
+}
+.callout .svg-inline--fa {
+   color: #de4e3f;
+   font-size: 2rem;
+   margin: 0 .2rem;
+   transition: all 0.5s ease 0s;
+   box-shadow: 0 0 .15rem rgba(0, 0, 0, .1);
+}
+.callout .svg-inline--fa {
+   color: #5b5b5b;
+   font-size: 1.65rem;
+   margin-right: 0;
+}
+.callout .svg-inline--fa:hover {
+   color: #E97F78;
+}
+
+/*-- Callout Phone # --*/
+.callout p {
+   font-size: 1.15rem;
+	text-align: center;
+	color: #de4e3f;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar-brand img {
+   height: 2rem;
+}
+.navbar {
+   background-color: #D3D3D3;
+   box-shadow: 0 -.5rem .5rem .1rem rgba(0, 0, 0, .02);
+   padding: .4rem 0 .2rem;
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: 900;
+   text-transform: uppercase;;
+}
+.navbar .container {
+   max-width: 900px;
+}
+.navbar-nav .nav-link {
+   font-size: 1.45rem;
+   padding-top: .5rem;
+   color: #5b5b5b;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+   text-decoration: underline;
+}
+.svg-inline--fa.fa-bars {
+   color: #5b5b5b;
+   font-size: 1.7rem;
+}
+
+/*-- Drop-down Menu --*/
+.dropdown-menu, .dropdown-item {
+   font-size: 1.1rem;
+   background-color: #D3D3D3;
+   border: 0;
+   color: #5b5b5b;
+   text-align: center;
+   padding: 0;
+}
+.dropdown-menu {
+   background-color: #fff!important;
+   margin-top: 0!important;
+   border-radius: 0;
+   z-index: 1000;
+}
+.dropdown-menu:hover, .dropdown-item:hover,
+.dropdown-menu:focus, .dropdown-item:focus,
+.dropdown-toggle:active, .dropdown-toggle:focus {
+   color: #5b5b5b!important;
+   background-color: #D3D3D3;
+}
+.dropdown-item {
+   padding: .3rem 0!important;
+}
+.dropdown-item:hover {
+   text-decoration: underline;
+}
+.dropdown-submenu > .dropdown-menu {
+   width: 100%;
+   z-index: 1000;
+}
+
+/*============= CAROUSEL IMAGE SLIDER =============*/
+
+.carousel-inner {
+   max-height: 35rem!important;
+   box-shadow: 0 .65rem .65rem .1rem rgba(0, 0, 0, .15);
+}
+.carousel-inner img {
+  min-width: 100%;
+}
+
+/*-- Change Carousel Transition Speed --*/
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: block;
+  transition: -webkit-transform 1.2s ease;
+  transition: transform 1.2s ease;
+  transition: transform 1.2s ease,-webkit-transform 1.2s ease;
+}
+
+/*-- Carousel Previous & Next Buttons --*/
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8%;
+  cursor: pointer!important;
+}
+.carousel-control-next {
+   padding-right: 3.2rem!important;
+}
+.carousel-control-prev .svg-inline--fa,
+.carousel-control-next .svg-inline--fa {
+  position: absolute;
+  font-size: 2.5rem!important;
+  padding: .2rem .3rem;
+  color: #F5F5F5;
+  background-color: #5B5B5B;
+  opacity: .6;
+  transition: all .5s ease;
+}
+.carousel-control-prev .svg-inline--fa:hover,
+.carousel-control-next .svg-inline--fa:hover {
+  color: #F5F5F5;
+  background-color: #5B5B5B;
+  box-shadow: 0 0 .65rem rgba(0, 0, 0, .15);
+  opacity: 1;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+/*-- Make Carousel Prev/Next Visible on hover --*/
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+   visibility: hidden;
+   opacity: 0;
+   transition: visibility 0s linear 1000s, opacity 1000ms;
+}
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+   visibility: visible !important;
+   opacity: 1;
+   transition: visibility 0s linear 0s, opacity 1000ms;
+}
+
+/*-- Carousel Caption --*/
+.carousel-caption {
+   left: 12%;
+   right: 12%;
+   position: absolute;
+   transform: translateY(-50%);
+   top: 45%;
+ }
+ .carousel-caption.text-left,
+ .carousel-caption.text-right {
+   top: 41%;
+ }
+
+/*============= PAGE TEXT & IMGs =============*/
+
+p.lead {
+   font-size: 1.1rem;
+}
+img.round {
+   border-radius: .2rem;
+   box-shadow: 0 0 .65rem rgba(0, 0, 0, .1);
+}
+.callout-border {
+   border: .15rem solid #de4e3f;
+   box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
+   border-radius: .3rem;
+}
+
+/*============= FOOTER =============*/
+
+.footer {
+   background-color: #D3D3D3;
+   box-shadow: 0 0 .8rem .1rem rgba(0, 0, 0, .08);
+}
+.footer h3 {
+   font-size: 1.5rem;
+   text-decoration: underline;
+   padding-bottom: 1rem;
+}
+.footer img { /*-- (logo) --*/
+   max-width: 15rem;
+   padding-bottom: .5rem;
+}
+
+/*-- Social Icons --*/
+.footer .social-center {
+   max-width: 14rem;
+   padding-bottom: 1rem;
+}
+ul.social {
+   display: flex;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+ul.social li {
+   display: inline;
+}
+.footer ul.social li {
+   display: inline;
+   padding: .5rem .5rem;
+}
+.footer .svg-inline--fa {
+   color: #de4e3f;
+   font-size: 2rem;
+   transition: all 0.5s ease 0s;
+   box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
+}
+.footer .svg-inline--fa:hover {
+   color: #E97F78;
+}
+
+/*-- Google Maps --*/
+.google-maps {
+	position: relative;
+   padding-bottom: 75%;
+   height: 0;
+   overflow: hidden;
+   box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
+}
+.google-maps iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100% !important;
+   height: 100% !important;
+}
+
+/*-- Top Scroll Button --*/
+
+.scroll-container {
+   width: 2.2rem;
+   float: right;
+}
+.top-scroll svg.svg-inline--fa {
+   font-size: 1.6rem!important;
+   height: 2rem;
+   width: 2.5rem;
+   color: #5B5B5B;
+   background-color: white;
+   box-shadow: 0 0 .5rem rgba(0, 0, 0, .05);
+   transition: all .5s ease;
+ }
+ a.top-scroll {
+   bottom: 1.2rem;
+   position: fixed;
+   opacity: .3;
+   z-index: 1000;
+   display: none;
+ }
+ a.top-scroll:hover {
+   opacity: .9;
+   transition: all .5s ease;
+ }
+ 
+/*============= ABOUT PAGE =============*/
+
+.banner-pages {
+   position: relative;
+   max-height: 19rem;
+   overflow: hidden;
+   box-shadow: 0 .65rem .65rem .1rem rgba(0, 0, 0, .15);
+}
+.banner-pages img {
+   min-width: 100%;
+}
+.banner-pages h1 {
+   position: absolute;
+   z-index: 1;
+   left: 28%;
+   top: 25%;
+   font-size: 2.5rem;
+   font-weight: 700;
+   text-shadow: 0 0 .2rem #fff;
+}
+.banner-pages h1.text-light {
+   text-shadow: 0 0 .2rem #000;
+}
+
+/*-- List Item Box --*/
+.list-group {
+   box-shadow: 0 0 .65rem rgba(0, 0, 0, .1);
+}
+.list-group li {
+   background-color: #FDF7F7;
+   text-align: center;
+   padding: .4rem;
+   color: #5b5b5b;
+   font-size: 1.25rem;
+   font-weight: 300;
+   letter-spacing: .1rem;
+}
+hr.border-red {
+   max-width: 96%;
+   margin: 1rem auto;
+   border-top: .15rem solid #de4e3f;
+   border-radius: 20%;
+   box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
+}
+.card {
+   box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+   background-color: #F5F5F5;
+   border-radius: .5rem;
+}
+.card-img-top {
+   border-radius: .5rem .5rem 0 0;
+   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .05);
+}
+
+/*============= SERVICES PAGE =============*/
+
+.counter-wrapper {
+   max-width: 23rem;
+}
+.custom-counter {
+   list-style-type: none;
+}
+.custom-counter li {
+   counter-increment: step-counter;
+   padding: .7rem;
+}
+.custom-counter li::before {
+   content: counter(step-counter);
+   margin-right: .7rem;
+   background: #de4e3f;
+   color: #fefbef;
+   font-weight: bold;
+   padding: .2rem .6rem;
+   border-radius: .15rem;
+}
+
+/*============= TESTIMONIALS PAGE =============*/
+
+/*============= CONTACT PAGE =============*/
+
+/*-- Contact Form --*/
+.form-group {
+   margin-bottom: 1.3rem;
+   box-shadow: 0 0 .4rem rgba(0, 0, 0, .05);
+}
+.form-control {
+   background: #F5F5F5;
+   border-radius: .3rem;
+   border: .15rem solid #5b5b5b;
+   color: #5b5b5b!important;
+   font-size: 1.1rem;
+}
+.form-control:focus {
+   background: #F5F5F5;
+   border: .15rem solid #de4e3f;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+   color: #8E7A6D;
+}
+input.btn {
+   float: right;
+}
+.controls input:focus,
+.controls textarea:focus { /*-- Remove Element Outlines in Contact Form --*/
+  outline: 0 !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Large (lg) devices (desktops, 992px and under) */
+@media (max-width: 991.98px) {
+   .navbar {
+      padding: .25rem 5rem;
+   }
+   .navbar-nav .nav-link {
+      font-size: 1.3rem;
+   }
+   .carousel-caption h2 {
+      font-size: 1.7rem;
+   }
+   .banner-pages h1 {
+      font-size: 2.2rem;
+   }
+}
+
+/* Medium (md) devices (tablets, 768px and under) */
+@media (max-width: 767.98px) {
+   header img {
+      max-width: 20rem;
+   }
+   .navbar {
+      padding: .2rem 2.5rem;
+   }
+   .navbar-nav .nav-link {
+      font-size: 1.2rem;
+   }
+   .dropdown-menu, .dropdown-item {
+      font-size: 1rem;
+    }
+   .carousel-caption {
+      top:38%;
+   }
+   .carousel-caption h2 {
+      font-size: 1.5rem;
+   }
+   .btn {
+      padding: .45rem 1rem;
+   }
+   p.lead {
+      font-size: 1.05rem;
+   }
+   .banner-pages h1 {
+      left: 25%!important;
+      top: 20%!important;
+      font-size: 1.9rem;
+   }
+}
+
+/* Small (sm) devices (landscape phones, 576px and under) */
+@media (max-width: 575.98px) {
+   .navbar {
+      padding: .2rem 0;
+   }
+   .navbar-toggler {
+      width: 100%;
+   }
+   .custom-toggler-icon {
+      float: right;
+      padding-right: 2rem;
+   }
+   .carousel-caption {
+      top:32%!important;
+   }
+   .carousel-caption h2 {
+      font-size: 1.3rem;
+   }
+   .btn {
+      padding: .4rem .9rem;
+   }
+   .banner-pages h1 {
+      left: 16%!important;
+      top: 15%!important;
+      font-size: 1.5rem;
+      letter-spacing: .03rem;
+   }
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+/*============= WAYPOINTS =============*/
+
+/*-- OPTION: TURN OFF ANIMATION OFF COMPLETELY::
+Note: may effect line progress bar with slight delay,
+line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
+
+
+/* remove this CSS comment to activate
+
+.animated, .os-animation {
+  -webkit-animation: none!important;
+  -moz-animation: none!important;
+  -o-animation: none!important;
+  animation: none!important;
+  opacity: 1!important;
+  -webkit-animation-delay: none !important;
+  -moz-animation-delay: none !important;
+  animation-delay: none !important;
+  }
+
+*/
+
+/*-- OPTION: TURN OFF ANIMATION ON MOBILE::
+Note: may effect line progress bar with slight delay,
+line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
+
+
+/* remove this CSS comment to activate
+
+@media (max-width: 767px) {
+	.animated, .os-animation {
+	  -webkit-animation: none!important;
+	  -moz-animation: none!important;
+	  -o-animation: none!important;
+	  animation: none!important;
+	  opacity: 1!important;
+	  -webkit-animation-delay: none !important;
+	  -moz-animation-delay: none !important;
+	  animation-delay: none !important;
+	  }
+	}
+
+*/
+
+
+/*-- Prevent WayPoints from Browser Window Scrolling On Mobile --*/
+/* Devices under 768px (md) */
+@media (max-width: 767px) {
+   .row {
+     overflow-x: hidden;
+     overflow-y: hidden;
+   }
+}
+ 
+/*-- Don't modify waypoints CSS below,
+this is required for waypoints to work --*/
+.os-animation{
+   opacity: 0;
+   margin: 0!important;
+   max-width: 100%;
+}
+.os-animation.animated {
+   opacity: 1;
+}
+ 
+/*Fix maps scroll issue*/
+.scrolloff {
+   pointer-events: none;
+}
