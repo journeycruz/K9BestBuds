@@ -239,7 +239,7 @@ img {
 /*============= CAROUSEL IMAGE SLIDER =============*/
 
 .carousel-inner {
-   max-height: 35rem!important;
+   max-height: 50rem!important;
    box-shadow: 0 .65rem .65rem .1rem rgba(0, 0, 0, .15);
 }
 .carousel-inner img {
