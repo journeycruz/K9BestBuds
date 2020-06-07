@@ -244,7 +244,6 @@ img {
 }
 .carousel-inner img {
   min-width: 100%;
-  max-height: 35rem!important;
 }
 
 /*-- Change Carousel Transition Speed --*/
