@@ -151,7 +151,7 @@ img {
 }
 .callout ul.social li {
    display: inline;
-   padding: 0 .2rem;
+   padding: 0px;
 }
 .callout .svg-inline--fa {
    color: #0460D9;
