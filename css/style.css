@@ -139,6 +139,7 @@ img {
    padding-bottom: .5rem;
    margin: 0 auto;
    max-width: 8rem;
+   text-align: center;
 }
 .callout ul.social {
    display: flex;
