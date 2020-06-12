@@ -145,12 +145,10 @@ img {
    list-style-type: none;
    margin: 0;
    padding: 0;
-   margin-left: 0;
    text-align: center;
 }
 .callout ul.social li {
    display: inline;
-   padding: 0 .2rem;
 }
 .callout .svg-inline--fa {
    color: #0460D9;
