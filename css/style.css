@@ -8,6 +8,7 @@ Nav: font-family: 'Fjalla One', sans-serif;
 Ignore W3C Validation error for this style. --*/
 #login {
    float: right;
+   padding-right: 5px;
 }
 html {
    padding: env(safe-area-inset);
