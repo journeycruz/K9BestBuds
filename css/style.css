@@ -183,7 +183,7 @@ img {
    height: 2rem;
 }
 #clearNav {
-   background-color: black;
+   background-color: transparent;
 }
 .navbar {
    padding: .2rem 0;
