@@ -9,6 +9,28 @@ $(document).on('click', 'a[href^="#"]', function (event) {
   }, 1000);
 });
 
+/*========== NAVBAR TRANSPARENT TO SOLID ==========*/
+function checkScroll() {
+    if ($(window).scrollTop() >= 300) {
+        $('.navbar').addClass('solid');
+    } else {
+        $('.navbar').removeClass('solid');
+    }
+ }
+ 
+/*========== ADD SOLID CLASS TO NAVBAR WHEN TOGGLED ==========*/
+$(document).ready(function () { //when document(DOM) loads completely.
+    checkScroll();
+    $(window).scroll(checkScroll);
+ 
+    // Add solid class to mobile nav if does not exist on toggle nav
+    $('.navbar-toggler').click(function () {
+        if ($(window).scrollTop() <= 300) {
+            $("nav.navbar").toggleClass("solid");
+        }
+    });
+ });
+ 
 /*========== MULTI-LEVEL / DOUBLE CLICK DROP DOWN MENU ==========*/
 $(document).ready(function () {
     var DELAY = 700, clicks = 0, timer = null;
