@@ -30,6 +30,8 @@ font-style: normal;
 margin: 10px;
 }
 
+.firsticon { padding-left: 0px; }
+
 .flaticon-instagram:before { content: "\f100"; }
 .flaticon-facebook:before { content: "\f101"; }
 .flaticon-youtube:before { content: "\f102"; }
