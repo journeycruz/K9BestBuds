@@ -9,6 +9,7 @@ Ignore W3C Validation error for this style. --*/
 #login {
    margin-right: 0px;
    margin-top: 0px;
+   float: right;
 }
 html {
    padding: env(safe-area-inset);
