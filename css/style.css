@@ -7,7 +7,6 @@ Nav: font-family: 'Fjalla One', sans-serif;
 /*-- iPhone X Remove Gutters
 Ignore W3C Validation error for this style. --*/
 #login {
-   margin-right: 0px;
    margin-top: 0px;
    float: right;
 }
