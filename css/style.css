@@ -544,10 +544,6 @@ input.btn {
    header img {
       max-width: 20rem;
    }
-   .navbar {
-      padding: .2rem 2.5rem;
-      float: right;
-   }
    .navbar-nav .nav-link {
       font-size: 1.2rem;
    }
