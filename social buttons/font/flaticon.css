@@ -27,10 +27,9 @@
   font-family: Flaticon;
         font-size: 20px;
 font-style: normal;
-margin: 10px;
+margin-right: 10px;
 }
 
-.firsticon { margin-left: 0px; }
 
 .flaticon-instagram:before { content: "\f100"; }
 .flaticon-facebook:before { content: "\f101"; }
