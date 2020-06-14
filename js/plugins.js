@@ -15,11 +15,12 @@ function checkScroll() {
         $('.navbar').addClass('solid');
         $('#navbarResponsive').addClass('col-sm-9');
         $('#navLogo').addClass('col-sm-3');
-        $('#navLogo').css('display', 'none');
+        $('#navLogo').css('display', 'contents');
     } else {
         $('.navbar').removeClass('solid');
         $('#navbarResponsive').removeClass('col-sm-9')
         $('#navLogo').removeClass('col-sm-3');
+        $('#navLogo').css('display', 'none');
     }
  }
  
