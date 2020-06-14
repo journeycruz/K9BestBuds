@@ -11,7 +11,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 /*========== NAVBAR TRANSPARENT TO SOLID ==========*/
 function checkScroll() {
-    if ($(window).scrollTop() >= 300) {
+    if ($(window).scrollTop() >= 100) {
         $('.navbar').addClass('solid');
         $('#navbarResponsive').addClass('col-sm-9');
         $('#navLogo').addClass('col-sm-3');
@@ -31,7 +31,7 @@ $(document).ready(function () { //when document(DOM) loads completely.
  
     // Add solid class to mobile nav if does not exist on toggle nav
     $('.navbar-toggler').click(function () {
-        if ($(window).scrollTop() <= 300) {
+        if ($(window).scrollTop() <= 100) {
             $("nav.navbar").toggleClass("solid");
         }
     });
