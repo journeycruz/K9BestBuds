@@ -184,7 +184,7 @@ img {
    margin-left: 50px;
 }
 #clearNav {
-   background-color: transparent;
+   background-color: rgb(5, 151, 242, .9);
 }
 .navbar {
    padding: .2rem 0;
@@ -209,7 +209,7 @@ img {
    border-top: .15rem solid white;
 }
 .navbar.solid {
-   background: rgba(255, 255, 255, 0.95)!important;
+   background: rgb(5, 151, 242, .9)!important;
    transition: background-color .3s ease .3s;
    justify-content: right;
  }
