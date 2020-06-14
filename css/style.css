@@ -210,7 +210,7 @@ img {
 }
 .navbar.solid {
    background: rgba(255, 255, 255, 0.95)!important;
-   transition: background-color .5s ease 0s;
+   transition: background-color .3s ease .3s;
    justify-content: right;
  }
  .navbar.solid .navbar-nav.ml-auto .nav-link.active,
