@@ -16,6 +16,7 @@ function checkScroll() {
         $('#navbarResponsive').addClass('col-sm-9');
         $('#navLogo').addClass('col-sm-3');
         $('#navLogo').css('display', 'contents');
+        $('#navLogo').css('position', 'fixed left 5px');
     } else {
         $('.navbar').removeClass('solid');
         $('#navbarResponsive').removeClass('col-sm-9')
