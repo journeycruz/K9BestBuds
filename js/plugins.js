@@ -47,6 +47,28 @@ $(document).ready(function () {
         }
     });
  });
+
+ /*========== REFERENCES CAROUSEL ==========*/
+$(document).ready(function () {
+    $('#references-carousel .carousel-wrap .owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayHoverPause: true,
+        loop: true,
+        autoplayTimeout: 8000,
+        autoplaySpeed: 2000,
+        nav: true,
+        navText: [
+            "<i class='fas fa-chevron-left'></i>",
+            "<i class='fas fa-chevron-right'></i>"
+        ],
+        navSpeed: 1500,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+ });
  
  
 /*========== ADD SOLID CLASS TO NAVBAR WHEN TOGGLED ==========*/
