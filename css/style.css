@@ -589,6 +589,9 @@ input.btn {
       top: 20%!important;
       font-size: 1.9rem;
    }
+   .navbar .navbar-container {
+      text-align: right;
+   }
 }
 
 /* Small (sm) devices (landscape phones, 576px and under) */
