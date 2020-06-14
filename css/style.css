@@ -184,7 +184,7 @@ img {
    margin-left: 50px;
 }
 #clearNav {
-   background-color: transparent;
+   background-color: darkgray;
 }
 .navbar {
    padding: .2rem 0;
@@ -193,11 +193,11 @@ img {
    letter-spacing: .1rem;
    min-height: 3.3rem;
    transition: background-color 1s ease 0s;
-   text-align: right;
+   text-align: center;
 }
 .navbar .container {
    max-width: 100%;
-   text-align: right;
+   text-align: center;
 }
 .navbar-nav .nav-link {
    color: #444;
@@ -211,7 +211,7 @@ img {
    border-top: .15rem solid white;
 }
 .navbar.solid {
-   background: rgba(255, 255, 255, 0.95)!important;
+   background: darkgray!important;
    transition: background-color 0s ease 0s;
    justify-content: right;
  }
