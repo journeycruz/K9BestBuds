@@ -13,8 +13,12 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 function checkScroll() {
     if ($(window).scrollTop() >= 300) {
         $('.navbar').addClass('solid');
+        $('#navbarResponsive').addClass('col-sm-9');
+        $('#navLogo').addClass('col-sm-3');
     } else {
         $('.navbar').removeClass('solid');
+        $('#navbarResponsive').removeClass('col-sm-9')
+        $('#navLogo').removeClass('col-sm-3');
     }
  }
  
