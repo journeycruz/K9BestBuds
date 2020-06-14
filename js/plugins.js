@@ -25,6 +25,29 @@ function checkScroll() {
         $('#navLogo').css('display', 'none');
     }
  }
+
+ /*========== REVIEWS CAROUSEL ==========*/
+$(document).ready(function () {
+    $('#reviews-carousel .carousel-wrap .owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayHoverPause: true,
+        loop: true,
+        autoplayTimeout: 8000,
+        autoplaySpeed: 2000,
+        nav: true,
+        navText: [
+            "<i class='fas fa-chevron-left'></i>",
+            "<i class='fas fa-chevron-right'></i>"
+        ],
+        navSpeed: 1500,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+ });
+ 
  
 /*========== ADD SOLID CLASS TO NAVBAR WHEN TOGGLED ==========*/
 $(document).ready(function () { //when document(DOM) loads completely.

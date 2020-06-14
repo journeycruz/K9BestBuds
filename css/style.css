@@ -708,3 +708,75 @@ this is required for waypoints to work --*/
 .scrolloff {
    pointer-events: none;
 }
+
+/*============= REVIEWS =============*/
+
+.parallax-reviews {
+   margin: 0;
+   padding: 0!important;
+ }
+ .parallax-reviews .container-fluid {
+   margin: 0!important;
+   padding: 0!important;
+ }
+ .half-col-container-first {
+   max-width: 550px;
+   float: right;
+ }
+ .review-text {
+   background-color: rgba(255, 255, 255, .85);
+   border-radius: .5rem;
+   margin-bottom: 1.5rem;
+   padding: 1rem;
+ }
+ .bg-reviews {
+   background-color: rgba(255, 255, 255, .92);
+ }
+ .half-col-container {
+   max-width: 576px;
+ }
+ 
+ /*-- Reviews Carousel --*/
+ #reviews-carousel .owl-carousel .owl-nav {
+   position: absolute;
+   top: 45%;
+   min-width: 100%!important;
+   max-width: 100%!important;
+ }
+ #reviews-carousel .owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+   left: 0!important;
+   padding: .4rem 1rem!important;
+   border: .1rem solid black;
+   font-size: 1.3rem!important;
+   color: black;
+   opacity: .7;
+ }
+ #reviews-carousel .owl-carousel .owl-nav button.owl-next {
+   position: absolute;
+   right: 0!important;
+   padding: .4rem 1rem!important;
+   border: .1rem solid black;
+   font-size: 1.3rem!important;
+   color: black;
+   opacity: .7;
+ }
+ #reviews-carousel .owl-carousel .owl-nav button.owl-prev:hover,
+ #reviews-carousel .owl-carousel .owl-nav button.owl-next:hover {
+   color: white;
+   background-color: black;
+ }
+ 
+ /*-- Reviews Carousel Content --*/
+ #reviews-carousel img {
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  min-width: 200px;
+  max-width: 200px;
+ }
+ .review-separator {
+   margin: 1rem auto;
+   width: 13rem;
+   height: .05rem;
+   background-color: #6FABCF;
+ }
