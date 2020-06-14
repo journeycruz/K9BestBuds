@@ -181,6 +181,7 @@ img {
 
 .navbar-brand img {
    height: 2rem;
+   margin-left: 0px;
 }
 #clearNav {
    background-color: transparent;
