@@ -194,7 +194,7 @@ img {
    transition: background-color 1s ease 0s;
 }
 .navbar .container {
-   max-width: 800px;
+   max-width: 1200px;
 }
 .navbar-nav .nav-link {
    color: #444;
