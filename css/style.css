@@ -9,6 +9,9 @@ Ignore W3C Validation error for this style. --*/
 .center-btn {
    float: center;
 }
+.social-center {
+   display: inline;
+}
 html {
    padding: env(safe-area-inset);
 }
