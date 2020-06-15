@@ -728,15 +728,15 @@ this is required for waypoints to work --*/
 
 /*============= REVIEWS =============*/
 
- .parallax-reviews {
+.parallax-reviews {
    margin: 0;
    padding: 0!important;
  }
- .parallax-reviews .container-fluid {
+.parallax-reviews .container-fluid {
    margin: 0!important;
    padding: 0!important;
  }
- .half-col-container-first {
+.half-col-container-first {
    max-width: 550px;
    float: right;
  }
@@ -796,4 +796,118 @@ this is required for waypoints to work --*/
    width: 13rem;
    height: .05rem;
    background-color: #6FABCF;
+ }
+
+ /*============= UNIVERSAL PARALLAX PLUGIN CSS =============*/
+
+.parallax-container {
+   -webkit-align-items: center;
+   align-items: center;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-align: center;
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin: 0;
+   padding: 15px;
+   position: relative;
+   width: 100%
+ }
+ .parallax-container .parallax-content {
+   margin: 0 auto;
+   width: 100%;
+ }
+ .parallax__container {
+   clip: rect(0, auto, auto, 0);
+   height: 100%;
+   left: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: -100
+ }
+ .parallax__container .parallax {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: fixed;
+   top: 0;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   width: 100%
+ }
+ 
+ 
+ /*-- Fix maps scroll issue --*/
+ .scrolloff {
+   pointer-events: none;
+ }
+ 
+ /*-- Parallax Map Height Adjustment Queries --*/
+ @media (max-width: 715px) {
+   .parallax-map {
+     max-height: 318px;
+     min-height: 318px;
+   }
+   .parallax-map .container-fluid {
+     max-height: 318px!important;
+   }
+   .responsive-map iframe {
+     min-height: 318px;
+     max-height: 318px;
+   }
+ }
+ @media (max-width: 610px) {
+   .parallax-map {
+     max-height: 280px;
+     min-height: 280px;
+   }
+   .parallax-map .container-fluid {
+     max-height: 280px!important;
+   }
+   .responsive-map iframe {
+     min-height: 280px;
+     max-height: 280px;
+     max-width: 400px;
+   }
+ }
+ @media (max-width: 510px) {
+   .parallax-map {
+     max-height: 230px;
+     min-height: 230px;
+   }
+   .parallax-map .container-fluid {
+     max-height: 230px!important;
+   }
+   .responsive-map iframe {
+     min-height: 230px;
+     max-height: 230px;
+     max-width: 350px;
+   }
+ }
+ @media (max-width: 420px) {
+   .parallax-map {
+     max-height: 190px;
+     min-height: 190px;
+   }
+   .parallax-map .container-fluid {
+     max-height: 190px!important;
+   }
+   .responsive-map iframe {
+     min-height: 190px;
+     max-height: 190px;
+     max-width: 340px;
+   }
+ }
+ 
+ 
+ /*--- Bootstrap Mobile Gutter Fix --*/
+ .row, .container-fluid {
+   margin-left: 0px!important;
+   margin-right: 0px!important;
  }
