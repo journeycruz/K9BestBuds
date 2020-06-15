@@ -12,7 +12,7 @@ Ignore W3C Validation error for this style. --*/
 .social-lrg {
    display: flex;
    list-style-type: none;
-   text-align: center;
+   align-items: center;
    margin: 0px;
    padding: 0px;
 }
