@@ -630,6 +630,9 @@ input.btn {
    .navbar .container {
       text-align: center;
    }
+   #reviews-carousel .owl-carousel .owl-nav button.owl-prev,
+   #reviews-carousel .owl-carousel .owl-nav button.owl-next {
+     display: none!important;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
