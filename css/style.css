@@ -6,9 +6,8 @@ Nav: font-family: 'Fjalla One', sans-serif;
 
 /*-- iPhone X Remove Gutters
 Ignore W3C Validation error for this style. --*/
-#login {
-   float: right;
-   padding-right: 5px;
+.center-btn {
+   float: center;
 }
 html {
    padding: env(safe-area-inset);
