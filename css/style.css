@@ -208,7 +208,7 @@ img {
 .navbar-nav .nav-link:hover {
    text-decoration: underline;
    color: #4385AB!important;
-   border-top: .15rem solid white;
+
 }
 .navbar.solid {
    background: darkgray!important;
