@@ -659,6 +659,7 @@ Note: may effect line progress bar with slight delay,
 line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
 
 
+/* remove this CSS comment to activate
 
 .animated, .os-animation {
   -webkit-animation: none!important;
@@ -671,14 +672,14 @@ line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
   animation-delay: none !important;
   }
 
-
+*/
 
 /*-- OPTION: TURN OFF ANIMATION ON MOBILE::
 Note: may effect line progress bar with slight delay,
 line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
 
 
-
+/* remove this CSS comment to activate
 
 @media (max-width: 767px) {
 	.animated, .os-animation {
@@ -693,7 +694,7 @@ line-progressbar waypoints can be adjusted at bottom of plugins.js.--*/
 	  }
 	}
 
-
+*/
 
 
 /*-- Prevent WayPoints from Browser Window Scrolling On Mobile --*/
