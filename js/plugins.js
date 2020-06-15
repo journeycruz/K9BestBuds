@@ -61,7 +61,7 @@ $(document).ready(function () {
             "<i class='fas fa-chevron-left'></i>",
             "<i class='fas fa-chevron-right'></i>"
         ],
-        navSpeed: 1500,
+        navSpeed: 500,
         responsive: {
             0: {
                 items: 1
