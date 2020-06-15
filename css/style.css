@@ -589,7 +589,10 @@ input.btn {
       top: 20%!important;
       font-size: 1.9rem;
    }
-   .navbar .navbar-container {
+   .navbar {
+      text-align: right;
+   }
+   .navbar .container {
       text-align: right;
    }
 }
