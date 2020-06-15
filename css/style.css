@@ -17,8 +17,8 @@ Ignore W3C Validation error for this style. --*/
    padding: 0px;
 }
 ul.social-lrg li {
+   height: 40px;
    margin: 30px;
-   display: inline;
    justify-content: center;
 
 
