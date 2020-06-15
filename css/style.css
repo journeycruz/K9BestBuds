@@ -633,6 +633,7 @@ input.btn {
    #reviews-carousel .owl-carousel .owl-nav button.owl-prev,
    #reviews-carousel .owl-carousel .owl-nav button.owl-next {
      display: none!important;
+   }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
@@ -727,7 +728,7 @@ this is required for waypoints to work --*/
 
 /*============= REVIEWS =============*/
 
-.parallax-reviews {
+ .parallax-reviews {
    margin: 0;
    padding: 0!important;
  }
@@ -796,46 +797,3 @@ this is required for waypoints to work --*/
    height: .05rem;
    background-color: #6FABCF;
  }
-
- .parallax-container {
-   -webkit-align-items: center;
-   align-items: center;
-   display: -webkit-flex;
-   display: -ms-flexbox;
-   display: flex;
-   -ms-flex-align: center;
-   -webkit-flex-wrap: wrap;
-   -ms-flex-wrap: wrap;
-   flex-wrap: wrap;
-   margin: 0;
-   padding: 15px;
-   position: relative;
-   width: 100%
- }
- .parallax-container .parallax-content {
-   margin: 0 auto;
-   width: 100%;
- }
- .parallax__container {
-   clip: rect(0, auto, auto, 0);
-   height: 100%;
-   left: 0;
-   overflow: hidden;
-   position: absolute;
-   top: 0;
-   width: 100%;
-   z-index: -100
- }
- .parallax__container .parallax {
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: fixed;
-   top: 0;
-   -webkit-transform: translate3d(0, 0, 0);
-   transform: translate3d(0, 0, 0);
-   -webkit-transform-style: preserve-3d;
-   transform-style: preserve-3d;
-   width: 100%
- }
-}
