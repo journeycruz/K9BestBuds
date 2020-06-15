@@ -12,10 +12,13 @@ Ignore W3C Validation error for this style. --*/
 .social-lrg {
    display: flex;
    list-style-type: none;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
 }
 .socIcon {
    height: 40px;
-   margin: 10px;
+   margin: 30px;
    display: inline;
 }
 html {
