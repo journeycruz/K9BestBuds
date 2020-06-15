@@ -10,11 +10,13 @@ Ignore W3C Validation error for this style. --*/
    float: center;
 }
 .social-lrg {
-   display: inline;
+   display: flex;
+   list-style-type: none;
 }
 .socIcon {
    height: 40px;
    margin: 10px;
+   display: inline;
 }
 html {
    padding: env(safe-area-inset);
