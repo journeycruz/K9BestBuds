@@ -16,8 +16,7 @@ Ignore W3C Validation error for this style. --*/
    margin: 0px;
    padding: 0px;
 }
-.socIcon {
-   height: 40;
+ul.social-lrg li {
    margin: 30px;
    display: inline;
    justify-content: center;
