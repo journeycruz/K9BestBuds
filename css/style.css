@@ -17,9 +17,12 @@ Ignore W3C Validation error for this style. --*/
    padding: 0px;
 }
 .socIcon {
-   height: 40px;
-   margin-right: 60px;
+   height: 40;
+   margin: 30px;
    display: inline;
+   justify-content: center;
+
+
 }
 .colorContainer {
    background-color: lightgray;
