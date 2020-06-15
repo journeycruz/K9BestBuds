@@ -624,6 +624,12 @@ input.btn {
       font-size: 1.5rem;
       letter-spacing: .03rem;
    }
+   .navbar {
+      text-align: center;
+   }
+   .navbar .container {
+      text-align: center;
+   }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
