@@ -21,6 +21,9 @@ Ignore W3C Validation error for this style. --*/
    margin-right: 60px;
    display: inline;
 }
+.colorContainer {
+   background-color: lightgray;
+}
 html {
    padding: env(safe-area-inset);
 }
