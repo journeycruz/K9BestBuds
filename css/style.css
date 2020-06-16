@@ -358,8 +358,8 @@ p.lead {
 img.round {
    border-radius: 50%;
    box-shadow: 0 0 .65rem rgba(0, 0, 0, .1);
-   height: 200px;
-   width: 200px;
+   height: 300px;
+   width: 300px;
 }
 .callout-border {
    border: .15rem solid #0460D9;
