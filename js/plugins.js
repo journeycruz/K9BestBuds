@@ -16,7 +16,7 @@ function checkScroll() {
         $('#navbarResponsive').addClass('col-sm-9');
         $('#navLogo').addClass('col-sm-3');
         $('#navLogo').css('display', 'contents');
-        $('#navLogo').css('position', 'fixed left 120px');
+        $('#navLogo').css('position', 'fixed left 500px');
         $('clearNav').addClass('justify-content-center');
         $('#navLogo').addClass('os-animation');
         $('#navLogo').attr('data-animation', 'fadeInUp');
@@ -35,7 +35,7 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         loop: true,
         autoplayTimeout: 8000,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 500,
         nav: true,
         navText: [
             "<i class='fas fa-chevron-left'></i>",
