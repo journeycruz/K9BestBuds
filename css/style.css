@@ -189,7 +189,7 @@ img {
 .callout p {
    font-size: 1.15rem;
 	text-align: center;
-	color: #0460D9;
+	color: #3DF26A;
 }
 
 /*============= NAVIGATION =============*/
@@ -222,7 +222,7 @@ img {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
    text-decoration: underline;
-   color: #4385AB!important;
+   color: whitesmoke!important;
 
 }
 .navbar.solid {
