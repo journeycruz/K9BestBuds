@@ -17,8 +17,9 @@ Ignore W3C Validation error for this style. --*/
    padding: 0px;
 }
 ul.social-lrg li {
-   height: 100%;
-   margin: 30px;
+   padding-bottom: .5rem;
+   margin: 0 auto;
+   max-width: 8rem;
    justify-content: center;
 }
 .colorContainer {
