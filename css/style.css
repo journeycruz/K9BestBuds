@@ -351,9 +351,7 @@ img {
 p.lead {
    font-size: 1.1rem;
 }
-img.round {
-   border-radius: .2rem;
-   box-shadow: 0 0 .65rem rgba(0, 0, 0, .1);
+
 }
 .callout-border {
    border: .15rem solid #0460D9;
