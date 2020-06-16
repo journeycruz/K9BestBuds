@@ -647,6 +647,7 @@ input.btn {
    #reviews-carousel .owl-carousel .owl-nav button.owl-next {
      display: none!important;
    }
+   
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
@@ -800,7 +801,6 @@ this is required for waypoints to work --*/
  /*-- Reviews Carousel Content --*/
  #reviews-carousel img {
   margin: 0 auto 1rem;
-  border-radius: 50%;
   min-width: 200px;
   max-width: 200px;
  }
