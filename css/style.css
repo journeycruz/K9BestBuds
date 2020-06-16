@@ -345,6 +345,10 @@ img {
    top: 41%;
  }
 
+ .cfix {
+    align-items: center;
+ }
+
 
 /*============= PAGE TEXT & IMGs =============*/
 
