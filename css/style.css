@@ -171,7 +171,7 @@ img {
    display: inline;
 }
 .callout .svg-inline--fa {
-   color: #0460D9;
+   color: #A47E37;
    font-size: 2rem;
    margin: 0 .2rem;
    transition: all 0.5s ease 0s;
@@ -377,7 +377,7 @@ img.round {
    width: 300px;
 }
 .callout-border {
-   border: .15rem solid #0460D9;
+   border: .15rem solid #A47E37;
    box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
    border-radius: .3rem;
 }
@@ -417,7 +417,7 @@ ul.social li {
    padding: .5rem .5rem;
 }
 .footer .svg-inline--fa {
-   color: #0460D9;
+   color: #A47E37;
    font-size: 2rem;
    transition: all 0.5s ease 0s;
    box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
@@ -509,7 +509,7 @@ ul.social li {
 hr.border-red {
    max-width: 96%;
    margin: 1rem auto;
-   border-top: .15rem solid #0460D9;
+   border-top: .15rem solid #A47E37;;
    border-radius: 20%;
    box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
 }
@@ -538,7 +538,7 @@ hr.border-red {
 .custom-counter li::before {
    content: counter(step-counter);
    margin-right: .7rem;
-   background: #0460D9;
+   background: #A47E37;
    color: #fefbef;
    font-weight: bold;
    padding: .2rem .6rem;
@@ -563,7 +563,7 @@ hr.border-red {
 }
 .form-control:focus {
    background: #F5F5F5;
-   border: .15rem solid #0460D9;
+   border: .15rem solid #A47E37;
 }
 .form-group input::placeholder,
 .form-group textarea::placeholder {
