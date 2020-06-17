@@ -580,6 +580,10 @@ input.btn {
    .banner-pages h1 {
       font-size: 2.2rem;
    }
+   #reviews-carousel .owl-carousel .owl-nav button.owl-prev,
+   #reviews-carousel .owl-carousel .owl-nav button.owl-next {
+     display: none!important;
+   }
 }
 
 /* Medium (md) devices (tablets, 768px and under) */
@@ -615,6 +619,10 @@ input.btn {
    }
    .navbar .container {
       text-align: right;
+   }
+   #reviews-carousel .owl-carousel .owl-nav button.owl-prev,
+   #reviews-carousel .owl-carousel .owl-nav button.owl-next {
+     display: none!important;
    }
 }
 
