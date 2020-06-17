@@ -200,7 +200,7 @@ img {
    margin-left: 50px;
 }
 #clearNav {
-   background-color:skyblue;
+   background-color:#060A13;
 }
 .navbar {
    padding: .2rem 0;
@@ -227,7 +227,7 @@ img {
 
 }
 .navbar.solid {
-   background: skyblue;
+   background: #060A13;
    transition: background-color 0s ease 0s;
    justify-content: right;
  }
