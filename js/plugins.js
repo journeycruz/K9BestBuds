@@ -13,8 +13,8 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 function checkScroll() {
     if ($(window).scrollTop() >= 100) {
         $('.navbar').addClass('solid');
-        $('#navbarResponsive').addClass('col-sm-8');
-        $('#navLogo').addClass('col-sm-4');
+        $('#navbarResponsive').addClass('col-sm-9');
+        $('#navLogo').addClass('col-sm-3');
         $('#navLogo').css('display', 'contents');
         $('#navLogo').css('position', 'fixed left 80px');
         $('clearNav').addClass('justify-content-center');
@@ -22,8 +22,8 @@ function checkScroll() {
         $('#navLogo').attr('data-animation', 'fadeInUp');
     } else {
         $('.navbar').removeClass('solid');
-        $('#navbarResponsive').removeClass('col-sm-8')
-        $('#navLogo').removeClass('col-sm-4');
+        $('#navbarResponsive').removeClass('col-sm-9')
+        $('#navLogo').removeClass('col-sm-3');
         $('#navLogo').css('display', 'none');
     }
  }

@@ -29,7 +29,9 @@
 font-style: normal;
 margin-right: 15px;
 }
-
+,.flaticon-youtube:before {
+  font-size: 25px;
+}
 
 .flaticon-instagram:before { content: "\f100"; }
 .flaticon-facebook:before { content: "\f101"; }
