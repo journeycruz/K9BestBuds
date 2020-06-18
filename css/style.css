@@ -23,7 +23,7 @@ ul.social-lrg li {
    justify-content: center;
 }
 .colorContainer {
-   background-color: lightgray;
+   background-color: #778BD4;
 }
 html {
    padding: env(safe-area-inset);
@@ -116,8 +116,8 @@ a:hover {
    color: white;
 }
 .btn-gray {
-   border-color: #5b5b5b;
-   background-color: #5b5b5b;
+   border-color: #778BD4;
+   background-color: #778BD4;
    color: white;
 }
 .btn-gray:hover,
