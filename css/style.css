@@ -7,7 +7,7 @@ Nav: font-family: 'Fjalla One', sans-serif;
 /*-- iPhone X Remove Gutters
 Ignore W3C Validation error for this style. --*/
 #top {
-   background-color: #3843A8;
+   background-color: #2D518F;
 }
 
 .center-btn {
@@ -109,8 +109,8 @@ a:hover {
    transition: all .3s ease;
  }
 .btn-red {
-   border-color: #3843A8;
-   background-color: #3843A8;
+   border-color: #2D518F;
+   background-color: #2D518F;
    color: white;
  }
 .btn-red:hover,
