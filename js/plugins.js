@@ -15,6 +15,7 @@ function checkScroll() {
         $('.navbar').addClass('solid');
         $('#navbarResponsive').addClass('col-sm-9');
         $('#navLogo').addClass('col-sm-3');
+        $('#navLogo').addClass('text-center');
         $('#navLogo').css('display', 'contents');
         $('#navLogo').css('position', 'fixed left 80px');
         $('clearNav').addClass('justify-content-center');
@@ -24,6 +25,7 @@ function checkScroll() {
         $('.navbar').removeClass('solid');
         $('#navbarResponsive').removeClass('col-sm-9')
         $('#navLogo').removeClass('col-sm-3');
+        $('#navLogo').removeClass('text-center');
         $('#navLogo').css('display', 'none');
     }
  }
