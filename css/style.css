@@ -243,7 +243,7 @@ img {
 /*-- Drop-down Menu --*/
 .dropdown-menu, .dropdown-item {
    font-size: 1.1rem;
-   background-color: #D3D3D3;
+   background-color: #778BD4;
    border: 0;
    color: #5b5b5b;
    text-align: center;
@@ -259,7 +259,7 @@ img {
 .dropdown-menu:focus, .dropdown-item:focus,
 .dropdown-toggle:active, .dropdown-toggle:focus {
    color: #5b5b5b!important;
-   background-color: #D3D3D3;
+   background-color: #778BD4;
 }
 .dropdown-item {
    padding: .3rem 0!important;
@@ -385,7 +385,7 @@ img.round {
 /*============= FOOTER =============*/
 
 .footer {
-   background-color: #D3D3D3;
+   background-color: #778BD4;
    box-shadow: 0 0 .8rem .1rem rgba(0, 0, 0, .08);
 }
 .footer h3 {
