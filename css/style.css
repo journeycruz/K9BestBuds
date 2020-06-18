@@ -6,6 +6,10 @@ Nav: font-family: 'Fjalla One', sans-serif;
 
 /*-- iPhone X Remove Gutters
 Ignore W3C Validation error for this style. --*/
+#top {
+   background-color: #3843A8;
+}
+
 .center-btn {
    float: center;
 }
