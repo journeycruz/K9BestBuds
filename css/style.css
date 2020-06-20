@@ -501,6 +501,10 @@ input.btn {
    #reviews-carousel .owl-carousel .owl-nav button.owl-next {
      display: none!important;
    }
+   
+   .carousel-item {
+      height: 200px;
+   }
 }
 
 /* Small (sm) devices (landscape phones, 576px and under) */
@@ -529,6 +533,9 @@ input.btn {
    #reviews-carousel .owl-carousel .owl-nav button.owl-prev,
    #reviews-carousel .owl-carousel .owl-nav button.owl-next {
      display: none!important;
+   }
+   .carousel-item {
+      height: 200px;
    }
    
 }
