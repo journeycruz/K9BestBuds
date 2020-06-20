@@ -1211,5 +1211,7 @@ a {
  }
  
  
- 
+ .navbar.solid {
+   background: #1B3055;
+   transition: background-color 1.5s ease 0s;
  
