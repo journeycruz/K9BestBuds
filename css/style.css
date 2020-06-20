@@ -7,7 +7,7 @@ Nav: font-family: 'Fjalla One', sans-serif;
 /*-- iPhone X Remove Gutters
 Ignore W3C Validation error for this style. --*/
 #top {
-   background-color: ghostwhite;
+   background-color: rgba(0, 0, 0, .08);
 }
 
 .center-btn {
@@ -209,7 +209,7 @@ img {
    margin-left: 50px;
 }
 #clearNav {
-   background-color:#1B3055;
+   background-color:rgba(0, 0, 0, .08);;
 }
 .navbar {
    padding: .2rem 0;
