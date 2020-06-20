@@ -1300,8 +1300,9 @@ a {
 }
 
 .carousel-item {
-   height: 100vh;
+   height: 1900px;
    min-height: 300px;
+   max-height: 2400px;
    background: no-repeat center center scroll;
    -webkit-background-size: cover;
    -moz-background-size: cover;
