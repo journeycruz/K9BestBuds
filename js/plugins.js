@@ -9,7 +9,26 @@ $(document).on('click', 'a[href^="#"]', function (event) {
   }, 1000);
 });
 
-
+/*========== NAVBAR TRANSPARENT TO SOLID ==========*/
+function checkScroll() {
+    if ($(window).scrollTop() >= 100) {
+        $('.navbar').addClass('solid');
+        $('#navbarResponsive').addClass('col-sm-9');
+        $('#navLogo').addClass('col-sm-3');
+        $('#navLogo').addClass('text-center');
+        $('#navLogo').css('display', 'contents');
+        $('#navLogo').css('position', 'fixed left 80px');
+        $('clearNav').addClass('justify-content-center');
+        $('#navLogo').addClass('os-animation');
+        $('#navLogo').attr('data-animation', 'fadeInUp');
+    } else {
+        $('.navbar').removeClass('solid');
+        $('#navbarResponsive').removeClass('col-sm-9')
+        $('#navLogo').removeClass('col-sm-3');
+        $('#navLogo').removeClass('text-center');
+        $('#navLogo').css('display', 'none');
+    }
+ }
 
  /*========== REVIEWS CAROUSEL ==========*/
 $(document).ready(function () {
