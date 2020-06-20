@@ -1141,7 +1141,7 @@ a {
     line-height: 28px;
   }
 }
-.carousel-item-top {
+.carousel-item {
    height: 100vh;
    min-height: 300px;
    background: no-repeat center center scroll;
@@ -1150,18 +1150,18 @@ a {
    -o-background-size: cover;
    background-size: cover;
  }
- .carousel-caption-top {
+ .carousel-caption {
    bottom: 270px;
  }
  
- .carousel-caption-top h5 {
+ .carousel-caption h5 {
    font-size: 45px;
    text-transform: uppercase;
    letter-spacing: 2px;
    margin-top: 25px;
  }
  
- .carousel-caption-top p {
+ .carousel-caption p {
    width: 75%;
    margin: auto;
    font-size: 18px;
