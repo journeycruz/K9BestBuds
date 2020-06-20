@@ -1210,6 +1210,9 @@ a {
    color: #fff;
  }
  
+ .navbar {
+    height: 60px;
+ }
  
  .navbar.solid {
    background: #1B3055;
