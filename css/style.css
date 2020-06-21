@@ -1149,12 +1149,7 @@ a {
   }
 }
 .carousel-item {
-   height: 100vh;
-   background: no-repeat center center scroll;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+   max-height: 35rem!important;
  }
  .carousel-caption {
    bottom: 270px;
