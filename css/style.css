@@ -1224,7 +1224,7 @@ a {
  }
 
  ul.social li {
-    height: 50px;
+    display: inline;
     margin-right: 15px;
     margin-top: 20px;
  }
