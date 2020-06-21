@@ -1151,6 +1151,9 @@ a {
 .carousel-item {
    max-height: 35rem!important;
  }
+ .carousel-inner img {
+   min-width: 100%;
+ }
  .carousel-caption {
    bottom: 270px;
  }
