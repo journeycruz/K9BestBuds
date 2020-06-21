@@ -389,6 +389,9 @@ input.btn {
    .carousel-caption h2 {
       font-size: 1.7rem;
    }
+   .carousel-item {
+      max-height: 35rem!important;
+   }
    .banner-pages h1 {
       font-size: 2.2rem;
    }
