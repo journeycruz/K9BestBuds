@@ -166,82 +166,6 @@ img {
 
 /*============= CAROUSEL IMAGE SLIDER =============*/
 
-.carousel-inner {
-   max-height: 35rem!important;
-   box-shadow: 0 .65rem .65rem .1rem rgba(0, 0, 0, .15);
-}
-.carousel-inner img {
-  min-width: 100%;
-}
-
-/*-- Change Carousel Transition Speed --*/
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
-  display: block;
-  transition: -webkit-transform 1.2s ease;
-  transition: transform 1.2s ease;
-  transition: transform 1.2s ease,-webkit-transform 1.2s ease;
-}
-
-/*-- Carousel Previous & Next Buttons --*/
-.carousel-control-prev,
-.carousel-control-next {
-  width: 8%;
-  cursor: pointer!important;
-}
-.carousel-control-next {
-   padding-right: 3.2rem!important;
-}
-.carousel-control-prev .svg-inline--fa,
-.carousel-control-next .svg-inline--fa {
-  position: absolute;
-  font-size: 2.5rem!important;
-  padding: .2rem .3rem;
-  color: #F5F5F5;
-  background-color: #5B5B5B;
-  opacity: .6;
-  transition: all .5s ease;
-}
-.carousel-control-prev .svg-inline--fa:hover,
-.carousel-control-next .svg-inline--fa:hover {
-  color: #F5F5F5;
-  background-color: #5B5B5B;
-  box-shadow: 0 0 .65rem rgba(0, 0, 0, .15);
-  opacity: 1;
-  cursor: pointer;
-  transition: all .5s ease;
-}
-
-/*-- Make Carousel Prev/Next Visible on hover --*/
-.carousel .carousel-control-prev,
-.carousel .carousel-control-next {
-   visibility: hidden;
-   opacity: 0;
-   transition: visibility 0s linear 1000s, opacity 1000ms;
-}
-.carousel:hover .carousel-control-prev,
-.carousel:hover .carousel-control-next {
-   visibility: visible !important;
-   opacity: 1;
-   transition: visibility 0s linear 0s, opacity 1000ms;
-}
-
-/*-- Carousel Caption --*/
-.carousel-caption {
-   left: 12%;
-   right: 12%;
-   position: absolute;
-   transform: translateY(-50%);
-   top: 45%;
- }
- .carousel-caption.text-left,
- .carousel-caption.text-right {
-   top: 41%;
- }
-
- .cfix {
-    align-items: center;
- }
-
 
 /*============= PAGE TEXT & IMGs =============*/
 
@@ -502,9 +426,7 @@ input.btn {
      display: none!important;
    }
    
-   .carousel-item {
-      height: 200px;
-   }
+
 }
 
 /* Small (sm) devices (landscape phones, 576px and under) */
@@ -534,10 +456,6 @@ input.btn {
    #reviews-carousel .owl-carousel .owl-nav button.owl-next {
      display: none!important;
    }
-   .carousel-item {
-      height: 200px;
-   }
-   
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
@@ -1226,5 +1144,4 @@ a {
  ul.social li {
     display: inline;
     margin-right: 15px;
-    margin-top: 20px;
  }
