@@ -89,8 +89,8 @@ a:hover {
    transition: all .3s ease;
  }
 .btn-red {
-   border-color: #de4e3f;
-   background-color: #de4e3f;
+   border-color: #F76C6C;
+   background-color: #F76C6C;
    color: white;
    border-radius: 6px;
  }
@@ -158,27 +158,27 @@ img {
    padding: 11px;
 }
 .callout .svg-inline--fa {
-   color: #de4e3f;
+   color: #F76C6C;
    font-size: 2rem;
    margin: 0 .2rem;
    transition: all 0.5s ease 0s;
    box-shadow: 0 0 .15rem rgba(0, 0, 0, .1);
 }
 .callout .svg-inline--fa {
-   color: #5b5b5b;
+   color: #374785;
    font-size: 1.65rem;
    margin: 0;
    text-align: center;
 }
 .callout .svg-inline--fa:hover {
-   color: #E97F78;
+   color: #A8D0E6;
 }
 
 /*-- Callout Phone # --*/
 .callout p {
    font-size: 1.15rem;
 	text-align: center;
-	color: #de4e3f;
+	color: #F76C6C;
 }
 
 /*============= NAVIGATION =============*/
@@ -187,7 +187,7 @@ img {
    height: 2rem;
 }
 .navbar {
-   background-color: #0087B4;
+   background-color: #24305E;
    box-shadow: 0 -.5rem .5rem .1rem rgba(0, 0, 0, .02);
    padding: .4rem 0 .2rem;
    font-family: 'Fjalla One', sans-serif;
@@ -200,14 +200,14 @@ img {
 .navbar-nav .nav-link {
    font-size: 1.45rem;
    padding-top: .5rem;
-   color: #5b5b5b;
+   color:  #A8D0E6;;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
    text-decoration: underline;
 }
 .svg-inline--fa.fa-bars {
-   color: #5b5b5b;
+   color: #F8E9A1;
    font-size: 1.7rem;
 }
 
@@ -216,7 +216,7 @@ img {
    font-size: 1.1rem;
    background-color: #D3D3D3;
    border: 0;
-   color: #5b5b5b;
+   color:  #A8D0E6;;
    text-align: center;
    padding: 0;
 }
@@ -328,7 +328,7 @@ img.round {
    box-shadow: 0 0 .65rem rgba(0, 0, 0, .1);
 }
 .callout-border {
-   border: .15rem solid #de4e3f;
+   border: .15rem solid #F76C6C;
    box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
    border-radius: .3rem;
 }
@@ -371,7 +371,7 @@ ul.social li {
    padding: .5rem .5rem;
 }
 .footer .svg-inline--fa {
-   color: #de4e3f;
+   color: #F76C6C;
    font-size: 2rem;
    transition: all 0.5s ease 0s;
    box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
@@ -463,7 +463,7 @@ ul.social li {
 hr.border-red {
    max-width: 96%;
    margin: 1rem auto;
-   border-top: .15rem solid #de4e3f;
+   border-top: .15rem solid #F76C6C;
    border-radius: 20%;
    box-shadow: 0 0 .5rem rgba(0, 0, 0, .1);
 }
@@ -492,7 +492,7 @@ hr.border-red {
 .custom-counter li::before {
    content: counter(step-counter);
    margin-right: .7rem;
-   background: #de4e3f;
+   background: #F76C6C;
    color: #fefbef;
    font-weight: bold;
    padding: .2rem .6rem;
@@ -517,7 +517,7 @@ hr.border-red {
 }
 .form-control:focus {
    background: #F5F5F5;
-   border: .15rem solid #de4e3f;
+   border: .15rem solid #F76C6C;
 }
 .form-group input::placeholder,
 .form-group textarea::placeholder {
