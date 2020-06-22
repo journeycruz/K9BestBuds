@@ -69,13 +69,13 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         loop: true,
         autoplayTimeout: 8000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 500,
         nav: true,
         navText: [
             "<i class='fas fa-chevron-left'></i>",
             "<i class='fas fa-chevron-right'></i>"
         ],
-        navSpeed: 1500,
+        navSpeed: 500,
         responsive: {
             0: {
                 items: 1
