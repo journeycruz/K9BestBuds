@@ -728,6 +728,7 @@ this is required for waypoints to work --*/
    max-width: 100%!important;
  }
  #reviews-carousel .owl-carousel .owl-nav button.owl-prev {
+   display: none;
    position: absolute;
    left: 0!important;
    padding: .4rem 1rem!important;
@@ -737,6 +738,7 @@ this is required for waypoints to work --*/
    opacity: .7;
  }
  #reviews-carousel .owl-carousel .owl-nav button.owl-next {
+   display: none;
    position: absolute;
    right: 0!important;
    padding: .4rem 1rem!important;
