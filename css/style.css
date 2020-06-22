@@ -101,15 +101,15 @@ a:hover {
    color: white;
 }
 .btn-gray {
-   border-color: #5b5b5b;
-   background-color: #5b5b5b;
+   border-color: #374785;
+   background-color: #374785;
    color: white;
    border-radius: 6px;
 }
 .btn-gray:hover,
 .btn-gray:focus  {
-   border-color: #8c8c8c;
-   background-color: #8c8c8c;
+   border-color: #A8D0E6;
+   background-color: #A8D0E6;
    color: white;
 }
 
@@ -178,7 +178,7 @@ img {
 .callout p {
    font-size: 1.15rem;
 	text-align: center;
-	color: #F76C6C;
+	color: #A8D0E6;
 }
 
 /*============= NAVIGATION =============*/
