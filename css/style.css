@@ -316,6 +316,14 @@ img {
    top: 45%;
    border-radius: 6px;
  }
+ #carousel1 {
+   left: 12%;
+   right: 12%;
+   position: absolute;
+   transform: translateY(-60%);
+   top: 45%;
+   border-radius: 6px;
+ }
  .carousel-caption.text-left,
  .carousel-caption.text-right {
    top: 41%;
