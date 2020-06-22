@@ -9,6 +9,104 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 1000);
   });
   
+
+  /*========== OUR DEVELOPERS CAROUSEL ==========*/
+$(document).ready(function(){ //when document(DOM) loads completely
+    $('#team-slider').owlCarousel({ //owlCarousel settings
+        nav: false,
+        dots: true,
+        autoplay: true, //set to false to turn off autoplay and only use nav
+        autoplayHoverPause: true, //set to false to prevent pausing on hover
+        loop: true, //set to false to stop carousel after all slides shown
+        autoplayTimeout: 8000, //time between transitions
+        smartSpeed: 1200, //transition speed
+        dotsSpeed: 1000, //transition speed when using dots/buttons
+        responsive : { //set number of items shown per screen width
+            0 : {
+                items: 1 //0px width and up display 1 item
+            },
+            768 : {
+                items: 2 //768px width and up display 2 items
+            },
+            992 : {
+                items: 3 //992px width and up display 3 items
+            }
+        }
+    });
+});
+ 
+ 
+/*========== KEEP OUR DEVELOPERS CARDS THE SAME HEIGHT ==========*/
+$(document).ready(function () {
+ 
+    // Select and loop the container element of the elements you want to equalise
+    $('.owl-theme').each(function () {
+ 
+        // Cache the highest
+        var highestBox = 0;
+ 
+        // Select and loop the elements you want to equalise
+        $('.card', this).each(function () {
+ 
+            // If this box is higher than the cached highest then store it
+            if ($(this).height() > highestBox) {
+                highestBox = $(this).height();
+            }
+ 
+        });
+ 
+        // Set the height of all those children to whichever was highest
+        $('.card', this).height(highestBox);
+ 
+    });
+});
+ 
+ 
+/*========== REVIEWS CAROUSEL ==========*/
+$(document).ready(function () {
+    $('#reviews-carousel .carousel-wrap .owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayHoverPause: true,
+        loop: true,
+        autoplayTimeout: 8000,
+        autoplaySpeed: 2000,
+        nav: true,
+        navText: [
+            "<i class='fas fa-chevron-left'></i>",
+            "<i class='fas fa-chevron-right'></i>"
+        ],
+        navSpeed: 1500,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+});
+
+/*========== REFERENCES CAROUSEL ==========*/
+$(document).ready(function () {
+    $('#references-carousel .carousel-wrap .owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayHoverPause: true,
+        loop: true,
+        autoplayTimeout: 8000,
+        autoplaySpeed: 2000,
+        nav: true,
+        navText: [
+            "<i class='fas fa-chevron-left'></i>",
+            "<i class='fas fa-chevron-right'></i>"
+        ],
+        navSpeed: 1500,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+});
+ 
+ 
   /*========== MULTI-LEVEL / DOUBLE CLICK DROP DOWN MENU ==========*/
   $(document).ready(function () {
       var DELAY = 700, clicks = 0, timer = null;
