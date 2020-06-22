@@ -162,7 +162,7 @@ img {
    font-size: 2rem;
    margin: 0 .2rem;
    transition: all 0.5s ease 0s;
-   box-shadow: 0 0 .15rem rgba(0, 0, 0, .1);
+
 }
 .callout .svg-inline--fa {
    color: #374785;
@@ -336,13 +336,14 @@ img.round {
 /*============= FOOTER =============*/
 
 .footer {
-   background-color: #D3D3D3;
+   background-color: #24305E;
    box-shadow: 0 0 .8rem .1rem rgba(0, 0, 0, .08);
 }
 .footer h3 {
    font-size: 1.5rem;
    text-decoration: underline;
    padding-bottom: 1rem;
+   color: #F8E9A1;
 }
 .footer img { /*-- (logo) --*/
    max-width: 15rem;
@@ -374,7 +375,6 @@ ul.social li {
    color: #F76C6C;
    font-size: 2rem;
    transition: all 0.5s ease 0s;
-   box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
 }
 .footer .svg-inline--fa:hover {
    color: #E97F78;
