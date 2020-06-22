@@ -304,7 +304,7 @@ img {
    left: 12%;
    right: 12%;
    position: absolute;
-   transform: translateY(-25%);
+   transform: translateY(-75%);
    top: 45%;
  }
  .carousel-caption.text-left,
