@@ -1051,4 +1051,6 @@ this is required for waypoints to work --*/
    -webkit-clip-path: var(--clip-path-clicked);
            clip-path: var(--clip-path-clicked);
  }
- 
+ #videoRow {
+    max-height: fit-content;
+ }
