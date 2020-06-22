@@ -162,7 +162,8 @@ img {
 .callout .svg-inline--fa {
    color: #5b5b5b;
    font-size: 1.65rem;
-   margin-right: 0;
+   margin: 0;
+   text-align: center;
 }
 .callout .svg-inline--fa:hover {
    color: #E97F78;
