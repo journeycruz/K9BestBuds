@@ -355,14 +355,17 @@ img.round {
 
 /*-- Social Icons --*/
 .footer .social-center {
-   max-width: 14rem;
-   padding-bottom: 1rem;
+   padding-bottom: .5rem;
+   margin: 0 auto;
+   max-width: 8rem;
+   justify-content: center;
 }
 ul.social {
    display: flex;
    list-style-type: none;
    margin: 0;
    padding: 0;
+   justify-content: center;
 }
 ul.social li {
    display: inline;
@@ -372,10 +375,10 @@ ul.social li {
 }
 .footer ul.social li {
    display: inline;
-   padding: .5rem .5rem;
+   padding: 11px;
 }
 .footer .svg-inline--fa {
-   color: #F76C6C;
+   color: #F8E9A1;
    font-size: 2rem;
    transition: all 0.5s ease 0s;
 }
