@@ -364,6 +364,7 @@ ul.social li {
    display: inline;
    padding-top: 20px;
    padding-right: 15px;
+   align-items: center;
 }
 .footer ul.social li {
    display: inline;
