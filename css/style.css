@@ -917,7 +917,7 @@ this is required for waypoints to work --*/
    width: 100%;
  }
  .wrapper-vid .video {
-   height: 100vh;
+   height: 50vh;
    overflow: hidden;
    display: -webkit-box;
    display: flex;
