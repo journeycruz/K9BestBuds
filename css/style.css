@@ -94,8 +94,8 @@ a:hover {
    color: white;
    border-radius: 6px;
  }
-.btn-red:hover,
-.btn-red:focus  {
+.btn-purple:hover,
+.btn-purple:focus  {
    border-color: #E97F78;
    background-color: #E97F78;
    color: white;
