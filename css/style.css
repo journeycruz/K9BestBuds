@@ -44,7 +44,10 @@ other than navbar, carousel, banner & footer --*/
    padding: 0 .5rem;
    overflow: hidden;
 }
-
+#copyright {
+   background-color: black;
+   color: white;
+}
 /*-- Headings --*/
 h1 {
 	text-align: center;
