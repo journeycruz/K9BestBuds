@@ -210,7 +210,7 @@ img {
    text-decoration: underline;
 }
 .svg-inline--fa.fa-bars {
-   color: #F76C6C;
+   color: lightgray;
    font-size: 1.7rem;
 }
 
@@ -378,7 +378,7 @@ ul.social li {
    padding: 11px;
 }
 .footer .svg-inline--fa {
-   color: #F76C6C;
+   color: #F8E9A1;
    font-size: 2rem;
    transition: all 0.5s ease 0s;
 }
