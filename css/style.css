@@ -309,6 +309,7 @@ img {
    position: absolute;
    transform: translateY(-65%);
    top: 45%;
+   border-radius: 6px;
  }
  .carousel-caption.text-left,
  .carousel-caption.text-right {
