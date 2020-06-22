@@ -359,6 +359,8 @@ ul.social {
 }
 ul.social li {
    display: inline;
+   padding-top: 20px;
+   padding-right: 15px;
 }
 .footer ul.social li {
    display: inline;
