@@ -200,21 +200,21 @@ img {
 .navbar-nav .nav-link {
    font-size: 1.45rem;
    padding-top: .5rem;
-   color:  #F8E9A1;
+   color:  #A8D0E6;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
    text-decoration: underline;
 }
 .svg-inline--fa.fa-bars {
-   color: #F8E9A1;
+   color: #A8D0E6;
    font-size: 1.7rem;
 }
 
 /*-- Drop-down Menu --*/
 .dropdown-menu, .dropdown-item {
    font-size: 1.1rem;
-   background-color: #D3D3D3;
+   background-color: #374785;
    border: 0;
    color:  #A8D0E6;;
    text-align: center;
